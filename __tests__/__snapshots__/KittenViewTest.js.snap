@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KittenViewPage match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 4,
+      }
+    }
+  >
+    <Image
+      onError={[Function]}
+      onLoad={[Function]}
+      onLoadEnd={[Function]}
+      onLoadStart={[Function]}
+      onProgress={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": "http://placekitten.com/200/300?image=1",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 6,
+        "flexDirection": "column",
+        "margin": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 18,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Bateman
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </Text>
+  </View>
+</View>
+`;

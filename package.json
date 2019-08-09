@@ -1,0 +1,46 @@
+{
+  "name": "kitten",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "eslint": "echo '=> linting' && node_modules/.bin/eslint --ext .js --ext .jsx ."
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^3.2.1",
+    "jest-mock": "^24.8.0",
+    "link": "^0.1.5",
+    "lodash": "^4.17.15",
+    "react": "16.8.3",
+    "react-native": "^0.59.9",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-progress": "^1.1.1",
+    "react-native-uuid": "^1.4.9",
+    "react-navigation": "^3.4.0",
+    "react-redux": "^6.0.1",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.5.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-native": "^3.7.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3",
+    "remote-redux-devtools": "^0.5.16",
+    "remotedev-rn-debugger": "^0.8.4"
+  },
+  "jest": {
+    "preset": "react-native",
+    "collectCoverage": true
+  }
+}
